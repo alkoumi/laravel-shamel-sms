@@ -40,13 +40,19 @@ SHAMEL_SMS_ADMINMOBILE=0500175200
 SHAMEL_SMS_ADMINEMAIL=mohammedelkoumi@gmail.com
 SHAMEL_SMS_NOTIFYUNDER=5000
 ```
-## Usage
+Don't forget to clear the cache `php artisan cache:clear` or `php artisan config:cache` after editing `.env` file 😉
+## Usage in `.php` files 
 ```
     use Alkoumi\LaravelShamelSms\Facades\Shamel;
     
     $mobileNumbers = ['0500175200'];
     Shamel::sendSMS('جعل الله ما قدمتكم 💳 في ميزان ⚖ حسنناتكم 💝 ',$mobileNumbers);
 ```
+## Usage in `.blade.php` files 
+```
+    {{ \Alkoumi\LaravelShamelSms\Facades\Shamel::sendSMS('جعل الله ما قدمتكم 💳 في ميزان ⚖ حسنناتكم 💝 ',$mobileNumbers); }}
+```
+
 For now, numbers should be entered without the country code without leading zeros or +
 ### One Recipient or Multiple Recipients:
 You can also pass an array of numbers in Numbers[] Array :
