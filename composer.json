@@ -28,7 +28,10 @@
     "laravel": {
       "providers": [
         "Alkoumi\\LaravelShamelSms\\ShamelServiceProvider"
-      ]
+      ],
+      "aliases": {
+          "Shamel": "Alkoumi\\LaravelShamelSms\\Facades\\Shamel"
+      }
     }
   },
   "minimum-stability": "dev",
