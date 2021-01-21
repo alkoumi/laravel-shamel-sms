@@ -1,36 +1,37 @@
 {
-  "name": "alkoumi/laravel-shamel-sms",
-  "description": "Laravel package 🥳 to sending SMS 💌 using http://www.shamelsms.net gateway 🤩 خدمة الرسائل القصيرة المقدمة من شامل",
-  "keywords": [
-    "laravel-sms",
-    "shamel SMS",
-    "SMS",
-    "shamelsms",
-    "shamelsms.net",
-    "رسائل",
-    "الرسائل القصيرة",
-    "laravel-shamel-sms"
-  ],
-  "homepage": "https://be.net/komy",
-  "license": "MIT",
-  "authors": [
-		{
-		"name": "Mohammed Alkoumi",
-		"email": "komy66@gmail.com"
-		}
-	],
-  "autoload": {
-      "psr-4": {
-          "Alkoumi\\LaravelShamelSms\\": "src/"
-      }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Alkoumi\\LaravelShamelSms\\ShamelServiceProvider"
-      ]
-    }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "name": "alkoumi/laravel-shamel-sms",
+    "description": "Laravel package to sending SMS using http://www.shamelsms.net gateway خدمة الرسائل القصيرة المقدمة من شامل",
+    "keywords": [
+        "laravel-sms",
+        "shamel SMS",
+        "SMS",
+        "shamelsms",
+        "shamelsms.net",
+        "رسائل",
+        "الرسائل القصيرة",
+        "laravel-shamel-sms"
+    ],
+    "homepage": "https://be.net/komy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammed Alkoumi",
+            "email": "komy66@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alkoumi\\LaravelShamelSms\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alkoumi\\LaravelShamelSms\\ShamelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
+
