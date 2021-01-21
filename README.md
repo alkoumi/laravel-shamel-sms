@@ -1,16 +1,12 @@
-<p align="center">
-
-[comment]: <> (<a href="https://packagist.org/packages/alhoqbani/mobily.ws"><img src="https://poser.pugx.org/alhoqbani/mobily.ws/downloads" alt="Total Downloads"></a>)
-
-[comment]: <> (<a href="https://packagist.org/packages/alhoqbani/mobily.ws"><img src="https://poser.pugx.org/alhoqbani/mobily.ws/version" alt="stabel version"></a>)
-
-[comment]: <> (<a href="https://packagist.org/packages/alhoqbani/mobily.ws"><img src="https://poser.pugx.org/alhoqbani/mobily.ws/license" alt="license"></a>)
-</p>
-
+[![License](https://poser.pugx.org/alkoumi/laravel-shamel-sms/license)](//packagist.org/packages/alkoumi/laravel-shamel-sms)
+[![Latest Stable Version](https://poser.pugx.org/alkoumi/laravel-shamel-sms/v)](//packagist.org/packages/alkoumi/laravel-shamel-sms)
+[![Total Downloads](https://poser.pugx.org/alkoumi/laravel-shamel-sms/downloads)](//packagist.org/packages/alkoumi/laravel-shamel-sms)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/alkoumi/laravel-shamel-sms)
+![Packagist Version](https://img.shields.io/packagist/v/alkoumi/laravel-shamel-sms?color=red)
+![Packagist Stars](https://img.shields.io/packagist/stars/alkoumi/laravel-shamel-sms)
 
 ## Laravel Shamel SMS Library إرسال الرسائل القصيرة من خلال بوابة شامل
-This is a Laravel package to send SMS using www.shamelsms.net.
-
+This is a Laravel package to send SMS using www.shamelsms.net :
 ## Installation
 
 1. Install the package using Composer:
@@ -42,6 +38,9 @@ SHAMEL_SMS_NOTIFYUNDER=5000
 ```
 Don't forget to clear the cache `php artisan cache:clear` or `php artisan config:cache` after editing `.env` file 😉
 ## Usage in `.php` files 
+![Shamel](imags/Shamel1.png)
+Better 😍 AutoComplete with  `barryvdh/laravel-ide-helper` :
+![Shamel](imags/Shamel2.png)
 ```
     use Alkoumi\LaravelShamelSms\Facades\Shamel;
     
